@@ -1,15 +1,5 @@
 import math
 
-'''while True:
-    try:
-        text = input('plz input a b c, split with space: ')
-        res = text.split(' ')
-        a, b, c = [int(i) for i in res]
-    except:
-        pass
-    else:
-        break
-'''
 def function():
             text = input('plz input a b c, split with space: ')
             res = text.split(' ')

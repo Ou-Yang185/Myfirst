@@ -19,9 +19,9 @@ def function():
                 print('x2=',x2)
 def signal():
         function()
-        sig=int(input('1 break，others continue:'))
+        sig=int(input('press 1 to quit，others continue:'))
         if sig==1:
-            return;
+            return
         else:
             signal()
 if __name__=="__main__":

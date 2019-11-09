@@ -9,7 +9,6 @@ def function():
                 print('no solve')
             elif delta == 0:
                 print('only one answer:  ')
-                x1=x2=float([(-b)+math.sqrt(pow(b,2)-4*a*c)]/(2*a))
                 print('x1=x2=',x1)
             else:
                 print("function's two answers:")
